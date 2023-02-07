@@ -10,7 +10,7 @@ const Navbar = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="w-full mx-auto px-4  shadow fixed top-0 z-50 dark:border-stone-600">
+    <header className="w-full mx-auto p-4 md:p-0 transition-all ease-out duration-500  md:px-12  shadow fixed top-0 z-50 dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between">
@@ -30,7 +30,7 @@ const Navbar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="md:flex md:flex-row md:items-center sm:px-20 flex-col md:space-x-6 space-y-8 md:space-y-0">
+            <ul className=" md:flex md:flex-row md:items-center px-4 md:px-0 flex-col md:space-x-6 space-y-8 md:space-y-0">
               <Link
                 to="/"
                 className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-500 cursor-pointer"
