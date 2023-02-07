@@ -1,4 +1,7 @@
-import './globals.css'
+"use client";
+import Navbar from "@/components/navbar/Navbar";
+import "./globals.css";
+import { ThemeProvider } from "next-themes";
 
 export default function RootLayout({ children }) {
   return (
@@ -8,7 +11,12 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <ThemeProvider enableSystem={true} attribute="class">
+          <Navbar />
+        </ThemeProvider>
+        {children}
+      </body>
     </html>
-  )
+  );
 }
