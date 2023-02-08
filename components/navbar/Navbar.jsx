@@ -10,7 +10,7 @@ const Navbar = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="w-full mx-auto p-4 md:p-0 transition-all ease-out duration-500  md:px-12  shadow fixed top-0 z-50 dark:border-stone-600">
+    <header className="w-full backdrop-filter bg-opacity-30 backdrop-blur-lg bg-neutral-400 mx-auto p-4 md:p-0 transition-all ease-out duration-500  md:px-12  shadow sticky top-0 z-50 dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between">
@@ -26,15 +26,14 @@ const Navbar = () => {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center md:flex md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
+            className={`flex-1 justify-self-center md:flex md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+              }`}
           >
-            <ul className=" md:flex md:flex-row md:items-center px-4 md:px-0 flex-col md:space-x-6 space-y-8 md:space-y-0">
+            <ul className=" md:flex  md:flex-row md:items-center px-4 md:px-0 flex-col md:space-x-6 space-y-8 md:space-y-0">
               <Link
                 to="/"
-                className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-500 cursor-pointer"
-                activeClass="active"
+                className="block lg:inline-block dark:text-slate-900 hover:text-neutral-500  cursor-pointer"
+                // activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -44,7 +43,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/about"
-                className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-300 cursor-pointer"
+                className="block lg:inline-block  hover:text-neutral-500 dark:text-slate-900 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -55,8 +54,8 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/project"
-                className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-300 cursor-pointer"
-                activeClass="active"
+                className="block lg:inline-block hover:text-neutral-500 text-slate-900 cursor-pointer"
+                // activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={-100}
