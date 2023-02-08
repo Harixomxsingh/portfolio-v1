@@ -5,8 +5,8 @@ import { HiArrowDown } from "react-icons/hi";
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center mt-12 items-center justify-center">
-        <div>
+      <div className="flex flex-col text-center mt-2 items-center justify-center md:flex-row md:space-x-4 md:text-left md:py-38 sm:py-32">
+        <div className="md:w-1/2 md:mt-2">
           <img
             // src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.entrepreneurs.ng%2Fwp-content%2Fuploads%2F2019%2F06%2FElon-Musk-6.jpg%3Ffit%3D940%252C788%26ssl%3D1&f=1&nofb=1&ipt=436fe7baa5670ef3dfb7d5c59ab471902f0b640d1f84ec1850f74dad86cb834a&ipo=images"
             src="https://avatars.githubusercontent.com/u/81488390?v=4"
@@ -16,9 +16,11 @@ const HeroSection = () => {
             className="rounded-full shadow-2xl"
           />
         </div>
-        <div className="mb-6">
-          <h1 className="font-bold text-4xl mt-6">Hi, I&#39;m Hari om!</h1>
-          <p className="py-2 text-lg mt-4 mb-6">
+        <div className="mb-6 md:w-3/5 md:mt-2">
+          <h1 className="font-bold text-4xl mt-6 md:text-5xl md:mt-0">
+            Hi, I&#39;m Hari om!
+          </h1>
+          <p className="py-2 text-lg mt-4 mb-6 md:text-xl">
             I&#39;m a{" "}
             <span className="font-semibold text-indigo-500">
               Software Developer
@@ -38,9 +40,10 @@ const HeroSection = () => {
             Projects
           </Link>
         </div>
-        {/* arrow */}
-        <HiArrowDown size={35} />
-        <div></div>
+      </div>
+      {/* arrow */}
+      <div className="w-full flex justify-center">
+        <HiArrowDown size={35} className="animate-bounce" />
       </div>
     </section>
   );
