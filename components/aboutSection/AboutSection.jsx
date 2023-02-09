@@ -64,11 +64,11 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I'm currently in College, I'm interested in computer science and
-              software development, I Stated my coding journey at the 2020 in
-              lockdown and the more i learn more i enjoyed, I like practical
-              things and when i write code it effect and these thing more push
-              me to become a dev
+              I&#39;m currently in College, I&#39;m interested in computer
+              science and software development, I Stated my coding journey at
+              the 2020 in lockdown and the more i learn more i enjoyed, I like
+              practical things and when i write code it effect and these thing
+              more push me to become a dev
             </p>
             <br />
             <p>
@@ -83,10 +83,10 @@ const AboutSection = () => {
             <p>
               I believe that you should{" "}
               <span className="font-bold text-sky-400">never stop growing</span>{" "}
-              and that's what I strive to do, I have a passion for technology
-              and a desire to push the limits of what is possible. I am excited
-              to see where my career takes me and i am always able to new
-              opportunities.
+              and that&#39;s what I strive to do, I have a passion for
+              technology and a desire to push the limits of what is possible. I
+              am excited to see where my career takes me and i am always able to
+              new opportunities.
             </p>
           </div>
           <div className="md:w-1/2">
