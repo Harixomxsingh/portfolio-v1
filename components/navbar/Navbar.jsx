@@ -26,8 +26,9 @@ const Navbar = () => {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center md:flex md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
-              }`}
+            className={`flex-1 justify-self-center md:flex md:pb-0 md:mt-0 ${
+              navbar ? "block" : "hidden"
+            }`}
           >
             <ul className=" md:flex  md:flex-row md:items-center px-4 md:px-0 flex-col md:space-x-6 space-y-8 md:space-y-0">
               <Link
@@ -42,7 +43,7 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                to="/about"
+                to="about"
                 className="block lg:inline-block  hover:text-neutral-500 dark:text-slate-900 cursor-pointer"
                 activeClass="active"
                 spy={true}
@@ -53,7 +54,7 @@ const Navbar = () => {
                 About
               </Link>
               <Link
-                to="/project"
+                to="project"
                 className="block lg:inline-block hover:text-neutral-500 text-slate-900 cursor-pointer"
                 // activeClass="active"
                 spy={true}
