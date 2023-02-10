@@ -54,7 +54,7 @@ const Navbar = () => {
                 About
               </Link>
               <Link
-                to="project"
+                to="projects"
                 className="block lg:inline-block hover:text-neutral-500 text-slate-900 cursor-pointer"
                 // activeClass="active"
                 spy={true}
