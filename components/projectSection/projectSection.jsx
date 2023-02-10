@@ -51,7 +51,7 @@ const ProjectSection = () => {
                     height={1000}
                   />
                 </div>
-                <div className="md:w-1/2">
+                <div className="md:w-1/2 mt-6">
                   <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                   <p className="leading-7 text-xl mb-4 text-neutral-600 dark:text-neutral-400">
                     {project.description}
