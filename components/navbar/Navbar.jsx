@@ -33,7 +33,7 @@ const Navbar = () => {
             <ul className=" md:flex  md:flex-row md:items-center px-4 md:px-0 flex-col md:space-x-6 space-y-8 md:space-y-0">
               <Link
                 to="/"
-                className="block lg:inline-block dark:text-slate-900 hover:text-neutral-500  cursor-pointer"
+                className="block lg:inline-block text-slate-900 hover:text-neutral-400  cursor-pointer"
                 // activeClass="active"
                 spy={true}
                 smooth={true}
@@ -44,7 +44,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="about"
-                className="block lg:inline-block  hover:text-neutral-500 dark:text-slate-900 cursor-pointer"
+                className="block lg:inline-block  hover:text-neutral-400 text-slate-900 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -55,7 +55,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="projects"
-                className="block lg:inline-block hover:text-neutral-500 text-slate-900 cursor-pointer"
+                className="block lg:inline-block hover:text-neutral-400 text-slate-900 cursor-pointer"
                 // activeClass="active"
                 spy={true}
                 smooth={true}
