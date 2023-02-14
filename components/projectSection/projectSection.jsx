@@ -2,14 +2,17 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import MetaMealImg from "../../public/MetaMealImg.jpg";
 
 const projects = [
   {
     name: "Meta Meal",
     description:
       "Meta Meal is Food Oder website that can fetch food from Meta, Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at anywhere All our meals are cooked with high quality ingredients, just in time and of course by experienced chefs!",
-    // image: "blob:https://vercel.com/31580efb-2d2c-40f4-82d2-2762ae495801",
-    image: "blob:https://vercel.com/2b9be675-668d-4519-91b0-dcaeea576f0e",
+    // image: { metaMealImg },
+    // image: "https://freeimage.host/i/HEbddsp",
+    image: "https://iili.io/HEbddsp.png",
+    // image: { MetaMealImg },
     github: "https://github.com/Harixomxsingh/MetaMeals",
     link: "https://meta-meals.vercel.app/",
   },
@@ -17,7 +20,7 @@ const projects = [
     name: "Your note",
     description:
       "Your note is a note taking web-app where user can do CRUD operations and intaract the web-app",
-    // image: "",
+    image: "",
     github: "xxx",
     link: "xyz",
   },
@@ -25,7 +28,7 @@ const projects = [
     name: "Good Vibes only",
     description:
       "Good Vibes only is a quote generator web-app where user can see quote from successful people and filter out quoter using there choice",
-    // image: "",
+    image: "",
     github: "xxx",
     link: "xyz",
   },
