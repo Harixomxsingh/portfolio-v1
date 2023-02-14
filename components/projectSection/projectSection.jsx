@@ -5,12 +5,13 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "E-commarce Food Add to Cart",
+    name: "Meta Meal",
     description:
-      "E-Com Add to cart is full function E-com web-application here user will interact with section see the item and add item into cart and see the total prize",
-    // image: "",
-    github: "xxx",
-    link: "xyz",
+      "Meta Meal is Food Oder website that can fetch food from Meta, Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at anywhere All our meals are cooked with high quality ingredients, just in time and of course by experienced chefs!",
+    // image: "blob:https://vercel.com/31580efb-2d2c-40f4-82d2-2762ae495801",
+    image: "blob:https://vercel.com/2b9be675-668d-4519-91b0-dcaeea576f0e",
+    github: "https://github.com/Harixomxsingh/MetaMeals",
+    link: "https://meta-meals.vercel.app/",
   },
   {
     name: "Your note",
