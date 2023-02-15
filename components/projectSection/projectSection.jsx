@@ -19,12 +19,12 @@ const projects = [
     link: "https://meta-meals.vercel.app/",
   },
   {
-    name: "Your note",
+    name: "Take Todo",
     description:
-      "Your note is a note taking web-app where user can do CRUD operations and intaract the web-app",
-    image: "",
-    github: "xxx",
-    link: "xyz",
+      "Take Todo is a Todo list application that take todo and store in an array, fetch the data to list the all todos user can CRUD the todos, project is use context api",
+    image: "https://iili.io/HGHJe8N.png",
+    github: "https://github.com/Harixomxsingh/react-todo-project/tree/main",
+    link: "https://react-todo-project-eight.vercel.app/",
   },
   {
     name: "Good Vibes only",
