@@ -2,7 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
-import MetaMealImg from "../../public/MetaMealImg.jpg";
+// import MetaMealImg from "../../public/MetaMealImg.jpg";
+// import Tilt from "react-parallax-tilt";
+// import Tilt from "react-tilt";
 
 const projects = [
   {
@@ -46,6 +48,7 @@ const ProjectSection = () => {
             <div key={idx} className="">
               <div className="flex flex-col md:flex-row md:space-x-12 mt-10 ">
                 {/* image */}
+                {/* <Tilt> */}
                 <div className="md:w-1/2 ">
                   <Image
                     className="rounded-xl shadow-xl hover:opacity-70"
@@ -55,6 +58,7 @@ const ProjectSection = () => {
                     height={1000}
                   />
                 </div>
+                {/* </Tilt> */}
                 <div className="md:w-1/2 mt-6">
                   <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                   <p className="leading-7 text-xl mb-4 text-neutral-600 dark:text-neutral-400">
