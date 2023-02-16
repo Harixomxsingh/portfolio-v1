@@ -1,0 +1,8 @@
+.marquee {
+  --gradient-color: rgb(255, 171, 171), rgba(255, 255, 255, 0);
+  --gradient-width: 200px;
+}
+.marquee.dark {
+  --gradient-color: rgba(0, 0, 0, 1), rgba(255, 255, 255, 0);
+  --gradient-width: 200px;
+}
