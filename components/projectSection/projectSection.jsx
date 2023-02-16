@@ -31,7 +31,7 @@ const projects = [
     name: "Good Vibes only",
     description:
       "Good Vibes only is a quote generator web-app where user can see quote from successful people and filter out quoter using there choice",
-    image: "",
+    // image: "",
     github: "xxx",
     link: "xyz",
   },

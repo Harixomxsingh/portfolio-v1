@@ -53,10 +53,12 @@ export default function SkillMarquee() {
         <div className="flex flex-row justify-center items-center">
           {SkilImage.map((ele) => (
             <Image
+              key={ele.img}
               src={ele.img}
               width={150}
               height={150}
               className="space-x-3 px-4"
+              alt={ele.img}
             />
           ))}
         </div>
