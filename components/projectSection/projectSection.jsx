@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import SkillMarquee from "../aboutSection/SkillMarquee";
 // import MetaMealImg from "../../public/MetaMealImg.jpg";
 // import Tilt from "react-parallax-tilt";
 // import Tilt from "react-tilt";
