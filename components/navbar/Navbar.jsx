@@ -10,12 +10,12 @@ const Navbar = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="w-full backdrop-filter bg-opacity-30 backdrop-blur-lg bg-neutral-400 mx-auto p-4 md:p-0 transition-all ease-out duration-500  md:px-12  shadow sticky top-0 z-50 dark:border-stone-600">
+    <header className="w-full md:px-56 backdrop-filter bg-opacity-30 backdrop-blur-lg bg-neutral-400 mx-auto p-4 md:p-0 transition-all ease-out duration-500  shadow sticky top-0 z-50 dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between">
             <div className="md:py-3 md:block">
-              <h2 className="text2xl font-bold">Harixomxsingh</h2>
+              <h2 className="text2xl font-bold text-sky-500">Harixomxsingh</h2>
             </div>
             <div className="md:hidden">
               <button onClick={() => setNavbar(!navbar)}>
