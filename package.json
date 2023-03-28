@@ -1,13 +1,11 @@
 {
-  "name": "pv1",
+  "name": "portfolio-v1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint",
-    "build": "babel src -d lib",
-    "test": "jest"
+    "build": "next build"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -21,7 +19,10 @@
     "react-icons": "^4.8.0",
     "react-parallax-tilt": "^1.7.102",
     "react-scroll": "^1.8.9",
-    "react-tilt": "^0.1.4"
+    "react-tilt": "^0.1.4",
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
